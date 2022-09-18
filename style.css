@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+h3,h2 { 
+    font-family:candara;
+     color:chocolate; }
+a {
+    color:#00BFFF;
+}
+img {
+    width:500px;
+    height:500px;
+}
+#danhsachnhom {
+    text-align: left;
+} 
+p {
+    text-align: left;
+}
+footer {
+    bottom: center;
+    background-color: #00BFFF;
+}
+table {
+    width : 100%;
+}
+#menu {
+    border: 1px;
+    width: 20%;
+    display: flex;
+}
+form {
+    width: 100%;
+}
+
+li {
+    width: 25%;
+}
