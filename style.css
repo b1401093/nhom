@@ -11,6 +11,16 @@ h3,h2 {
     font-family:candara;
     color:chocolate; 
 }
+#menu {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    color: chocolate;
+    background-color: #00BFFF;
+}
+li {
+    width: 15%;
+}
 h1 {
     color: red;
 }
@@ -55,15 +65,9 @@ table {
     width : 100%;
 }
 
-#menu {
-    border: 1px;
-    width: 20%;
-    display: flex;
-}
+
 form {
     width: 100%;
 }
 
-li {
-    width: 25%;
-}
+
