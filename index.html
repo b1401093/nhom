@@ -6,30 +6,52 @@
 		<title>BT-Nhom</title>
 	</head>
 	<body>
-		<h3> Trường Đại Học Cần Thơ <br/>
-			 Khoa Công nghệ thông tin & Truyền Thông
-		</h3>
-		<h4> Trang Web nhằm mục đích Học tập</h4>
-		<ul id="menu">
-			<li class="menu">Home Page Nhóm 5</li>
-			<li class="menu">Home Page Nhóm 5</li>
-			<li class="menu">Home Page Nhóm 5</li>
-			<li class="menu">Home Page Nhóm 5</li>
-			<li class="menu">Home Page Nhóm 5</li>
-		</ul>
+		<!-- menu -->
+		<div class="header">
+            <ul class="menu">
+                <li><a href="#slider">Trang chủ</a></li>
+                <li>
+					<a href="#ltw">Học LTW</a>
+					<ul class="menu-con">
+                        <li><a href="">html</a></li>
+                        <li><a href="">css</a></li>
+                        <li><a href="">js</a></li>
+                    </ul>
+				</li>
+                <li><a href="#thanh">Thành</a></li>
+                <li><a href="#ngan">Ngân</a></li>
+				<li><a href="https://b1401093.github.io/nhom/">Github</a></li>
+                <li><a href="#lienhe">Liên hệ</a></li>
+            </ul>
+            <div class="search-btn">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+            
+        </div>
+		<!-- menu/ -->
 		<h2></h2>
 		
-		<h2>Thành Viên Nhóm</h2>
+		<div id="ltw">
+			<div class="html">
+				<button>Học HTML</button>
+			</div>
+			<div class="css">
+				<button>Học CSS</button>
+			</div>
+			<div class="js">
+				<button>Học JS</button>
+			</div>
+		</div>
 
 		<div id="thanhvien">			
-			<div id="thanhvien1">
+			<div class="thanh" id="thanh">
 				
 					<img src="b1401093.jpg" alt="img of b1401093" ><br>
 					<button type="button"><a href="https://b1401093.github.io/thanh/">CV</a></button>
 				
 			</div>
 			&nbsp;&nbsp;&nbsp;&nbsp;
-			<div id="thanhvien2">
+			<div class="ngan" id="ngan">
 				
 				<img src="avatar.jpg" alt="img of avatar" ><br>
 				<button type="button"><a href="https://github.com/nganb1908398/CT424_N2/tree/main">CV</a></button>
@@ -37,7 +59,7 @@
 		</div>
 		</div>
 
-		<div>
+		<div >
 			<h1 id="demo">javacript ở đây !</h1>
 			<h3 for="fname">Bạn có phải là cô giáo của tôi ?</h3>
 			<br>
@@ -51,17 +73,16 @@
 		<script src="main.js">
 
 		</script>
-
-
+	
 		<br>
-		<table>
+		<table class="poster">
 			<tr>
 				<th>Thông tin liên hệ:</th>
 				<th>Học LTW w3shool:</th>
 			</tr>
 		
 			<tr>
-				<td>Email: ntthanh335@gmail.com</td>
+				<td>Email: ntthanh335@gmail.com <br>Email: nganb1908398@student.ctu.edu.vn</td>
 				<td>					
 					<a href="https://www.w3schools.com/html/default.asp">w3shool</a>					
 				</td>
@@ -70,6 +91,6 @@
 		</table>
 		
 
-		<footer><i>Lớp HP LTW sáng 3</i></footer>
+		<footer class="end"><i>Web của nhóm 5</i></footer>
 	</body>
 </html>
