@@ -13,6 +13,10 @@ body {
     left: 0;
     right: 0;
     z-index: 1;
+    display: flex;
+}
+.header-menu{
+    width: 85%;
 }
 .menu{
     display: flex;
@@ -21,11 +25,11 @@ body {
 .menu .menu-con {
     list-style-type: none;
     display: none;
-    min-width: 160px;
+    min-width: 100px;
     top: 100%;
     position: absolute;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    
 }
 .menu .menu-con a{
     color: #000;
@@ -60,11 +64,22 @@ body {
     color: #000;
     background-color: white;
 }
+.dn{
+    width: 15%;
+    text-align: center;
+    text-align: right;
+}
+.dn img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
 /* ltw */
 #ltw{
     width: 100%;
     height: 500px;
     text-align: center;
+    background-color: #cce8f1;
 }
 .kh{
     width: 100%;
@@ -119,6 +134,26 @@ body {
 .ngan-col-1{
     text-align: right;
     height: 60px;
+}
+/* content*/
+#ht{
+    display: flex;
+}
+
+.ht-content{
+    width: 70%;
+    height: 300px;
+    
+}
+.ht-content .input-nd{
+    height: 50px;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.ht-content .input-style{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
 }
 /* btn */
 button {

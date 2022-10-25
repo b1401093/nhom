@@ -8,25 +8,27 @@
 	<body>
 		<!-- menu -->
 		<div class="header">
-            <ul class="menu">
-                <li><a href="https://b1401093.github.io/nhom/">Trang chủ</a></li>
-                <li>
-					<a href="#ltw">Học LTW</a>
-					<ul class="menu-con">
-                        <li><a href="">html</a></li>
-                        <li><a href="">css</a></li>
-                        <li><a href="">js</a></li>
-                    </ul>
-				</li>
-                <li><a href="#thanh">Thành</a></li>
-                <li><a href="#ngan">Ngân</a></li>
-				<li><a href="https://b1401093.github.io/nhom/">Github</a></li>
-                <li><a href="#lienhe">Liên hệ</a></li>
-            </ul>
-            <div class="search-btn">
-                <i class="search-icon fa-solid fa-magnifying-glass"></i>
-            </div>
-            
+			<div class="header-menu">
+				<ul class="menu">
+					<li><a href="https://b1401093.github.io/nhom/">Trang chủ</a></li>
+					<li>
+						<a href="#ltw">Học LTW</a>
+						<ul class="menu-con">
+							<li><a href="">html</a></li>
+							<li><a href="">css</a></li>
+							<li><a href="">js</a></li>
+						</ul>
+					</li>
+					<li><a href="#thanh">Thành</a></li>
+					<li><a href="#ngan">Ngân</a></li>
+					<li><a href="https://b1401093.github.io/nhom/">Github</a></li>
+					<li><a href="#ht">Liên hệ</a></li>
+					
+				</ul>
+			</div>
+            <div class="dn">
+				<img src="user.jpg" alt="img of user!">
+			</div>
         </div>
 		<!-- kh -->
 		
@@ -39,16 +41,33 @@
 				<tr>
 					<td class="kh-row-2">
 						<div class="html">
+							<p>HTML là ngôn ngữ đánh dấu tiêu chuẩn cho các trang Web.<br>
+								<br>
+								Với HTML, bạn có thể tạo trang web của riêng mình.<br>
+								<br>
+								HTML rất dễ học - Bạn sẽ thích nó!</p>
 							<button>Học HTML</button>
 						</div>
 					</td>
 					<td class="kh-row-2">
 						<div class="css">
+							<p>CSS là ngôn ngữ chúng tôi sử dụng để tạo kiểu cho một tài liệu HTML.<br>
+								<br>
+								CSS mô tả cách hiển thị các phần tử HTML.<br>
+								<br>
+								Hướng dẫn này sẽ dạy bạn CSS từ cơ bản đến nâng cao.</p>
 							<button>Học CSS</button>
 						</div>
 					</td>
 					<td class="kh-row-2">
 						<div class="js">
+							<p>JavaScript là ngôn ngữ lập trình phổ biến nhất thế giới.<br>
+								<br>
+								JavaScript là ngôn ngữ lập trình của Web.<br>
+								<br>
+								JavaScript rất dễ học.<br>
+								<br>
+								Hướng dẫn này sẽ dạy bạn JavaScript từ cơ bản đến nâng cao.</p>
 							<button>Học JS</button>
 						</div>
 					</td>	
@@ -120,17 +139,22 @@
 			</table> 
 		</div>	
 	<!-- / -->		
-		<div >
-			<h1 id="demo">javacript ở đây !</h1>
-			<h3 for="fname">Bạn có phải là cô giáo của tôi ?</h3>
-			<br>
-			
-			<button type="button" class="bt1" onclick='document.getElementById("demo").innerHTML = "Em Chào Cô Ạ !"'> Phải </button>
-			&nbsp;&nbsp;
-			<button type="button" class="bt2" onclick="test()"> Không </button>
-			
-		</div>
+		<div id="ht">
+			<div class="ht-content">
+				<h2>Content</h2>
+				<label >Nội dung bạn muốn gửi đến chúng tôi</label><br>
+				<input class="input-nd" type="text" name="nd" id="nd" value=""><br>
+				<label>Tên của bạn</label><br>
+				<input class="input-style" type="text" name="ten" id="ten" value=""><br>
+				<label>Email của bạn</label><br>
+				<input class="input-style" type="email" name="email" id="email" value=""><br>
+				<button onclick="submit()">Gửi</button>
+			</div>
+			<div class="ht-as" id="demo">
 
+			</div>
+						
+		</div>
 		<script src="main.js">
 
 		</script>
@@ -152,6 +176,6 @@
 		</table>
 		
 <!-- kh/ -->
-		<footer class="end"><i>Web của nhóm 5</i></footer>
+		<footer class="end"><i>Chúc các bạn học tốt</i></footer>
 	</body>
 </html>
