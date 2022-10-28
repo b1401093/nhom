@@ -26,17 +26,47 @@
 					
 				</ul>
 			</div>
-            <div class="dn">
+            <div class="dn-icon">
+				<button onclick="document.getElementById('dn').style.display='block'">Đăng nhập</button>
 				<img src="user.jpg" alt="img of user!">
 			</div>
         </div>
-		<!-- kh -->
+<!-- dn -->
+	<div id="dn" class="dn">
+		<form class="form-dn" action="/action_page.php" method="post">
+			<div class="img-user">
+				<span onclick="document.getElementById('dn').style.display='none'" class="close" title="Close Modal">&times;</span>
+				<img src="user.jpg" alt="Avatar">
+			</div>
+
+			<div class="container">
+				<label for="uname"><b>Username</b></label><br>
+				<input type="text" placeholder="Enter Username" name="uname" required><br>
+
+				<label for="psw"><b>Password</b></label><br>
+				<input type="password" placeholder="Enter Password" name="psw" required><br>
+				
+				<button type="submit">Login</button><br>
+				<label>
+					<input type="checkbox" checked="checked" name="remember"> Remember me
+				</label>
+			</div>
+
+			<div class="sub-container" style="background-color:#f1f1f1">
+				<button type="button" onclick="document.getElementById('dn').style.display='none'" class="cancelbtn">Cancel</button>
+				<span class="psw">Forgot <a href="">password?</a></span>
+				<button type="button" onclick="" class="psw">Đăng ký</button>
+			</div>
+		</form>
+	</div>
+
+<!-- kh -->
 		
 		<div id="ltw">
 			<div class="can-50"></div>
 			<table class="kh" >
 				<tr>
-					<th colspan="3" class="kh-row-1">Các khóa học</th>
+					<th colspan="3" class="kh-row-1"><h2>Các khóa học</h2></th>
 				</tr>
 				<tr>
 					<td class="kh-row-2">

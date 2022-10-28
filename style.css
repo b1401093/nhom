@@ -64,15 +64,90 @@ body {
     color: #000;
     background-color: white;
 }
-.dn{
+.dn-icon{
     width: 15%;
     text-align: center;
-    text-align: right;
+    display: flex;
 }
-.dn img{
+.dn-icon button {
+    margin-top: 10px;
+    margin-right: 10%;
+    margin-left: 40%;
+}
+.dn-icon img{
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    text-align: right;    
+}
+/* dn */
+.dn .form-dn input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.dn .form-dn .cancelbtn {
+    width: auto;
+    padding: 10px 18px;    
+    background-color: #f44336;
+    float: left;
+}
+
+.dn .form-dn .img-user {
+    text-align: center;
+    position: relative;
+}
+.dn .form-dn img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.dn .form-dn .container {
+    padding: 16px;
+}
+.dn .form-dn .sub-container{
+    padding: 40px;
+}
+
+.dn .form-dn .psw {
+    float: right;
+    margin-right: 10px;
+}
+.dn .form-dn span.psw {
+    padding-top: 10px;
+}
+.dn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.form-dn {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.dn .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover , .close:focus {
+  color: red;
+  cursor: pointer;
 }
 /* ltw */
 #ltw{
