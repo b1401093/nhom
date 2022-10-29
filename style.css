@@ -81,7 +81,7 @@ body {
     text-align: right;    
 }
 /* dn */
-.dn .form-dn input[type=text], input[type=password] {
+.dn .form-dn input[type=email], input[type=password] {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -148,6 +148,65 @@ body {
 .close:hover , .close:focus {
   color: red;
   cursor: pointer;
+}
+/* dk */
+.dk .form-dk input[type=password] ,input[type=email]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.dk .form-dk .cancelbtn {
+    width: auto;
+    padding: 10px 18px;    
+    background-color: #f44336;
+    float: left;
+}
+.dk .form-dk .img-user {
+    position: relative;
+}
+.dk .form-dk .container {
+    padding: 16px;
+}
+.dk .form-dk .sub-container{
+    padding: 2px;
+}
+
+.dk .form-dk .psw {
+    float: center;
+    margin-right: 10px;
+}
+.dk .form-dk span.psw {
+    padding-top: 10px;
+}
+.dk {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.form-dk {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+.dk .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
 }
 /* ltw */
 #ltw{

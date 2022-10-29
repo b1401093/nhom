@@ -40,8 +40,8 @@
 			</div>
 
 			<div class="container">
-				<label for="uname"><b>Username</b></label><br>
-				<input type="text" placeholder="Enter Username" name="uname" required><br>
+				<label for="uname"><b>Your Gmail</b></label><br>
+				<input type="email" placeholder="Enter Your Gmail" name="uname" required><br>
 
 				<label for="psw"><b>Password</b></label><br>
 				<input type="password" placeholder="Enter Password" name="psw" required><br>
@@ -55,10 +55,34 @@
 			<div class="sub-container" style="background-color:#f1f1f1">
 				<button type="button" onclick="document.getElementById('dn').style.display='none'" class="cancelbtn">Cancel</button>
 				<span class="psw">Forgot <a href="">password?</a></span>
-				<button type="button" onclick="" class="psw">Đăng ký</button>
+				<button type="button" onclick="dk()" class="psw" >Đăng ký</button>
 			</div>
 		</form>
 	</div>
+<!-- dk -->
+<div id="dk" class="dk">
+	<form class="form-dk" action="/action_page.php" method="post">
+		<div class="img-user">
+			<span onclick="document.getElementById('dk').style.display='none'" class="close" title="Close Modal">&times;</span>
+			<img src="user.jpg" alt="Avatar">
+		</div>
+		<div class="container">
+			<label for="psw"><b>Gmail</b></label><br>
+			<input type="email" placeholder="Enter Gmail" name="psw" required><br>
+
+			<label for="psw"><b>Password</b></label><br>
+			<input type="password" placeholder="Enter Password" name="psw" required><br>
+			<label for="psw"><b>Pre-Password</b></label><br>
+			<input type="password" placeholder="Enter Pre-Password" name="psw" required><br>
+			<label>
+				<input type="checkbox" checked="checked" name="remember"> Tôi đồng ý tạo tài khoảng
+			</label>		
+		</div>		
+		<div class="sub-container" style="background-color:#f1f1f1">
+			<button type="button" onclick="" class="psw">Đăng ký</button>
+		</div>
+	</form>
+</div>
 
 <!-- kh -->
 		
