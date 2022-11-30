@@ -10,6 +10,12 @@ function dk(){
     document.getElementById('dn').style.display='none';
     document.getElementById('dk').style.display='block';
 }
+function signin(url){
+    href="https://bt-nhom5-ltw.herokuapp.com/hoc-html.html";
+}
+function html(event){
+    href="https://bt-nhom5-ltw.herokuapp.com/hoc-html.html";
+}
 // Get the modal
 var modal = document.getElementById('dn');
 var modal2 = document.getElementById('dk');
