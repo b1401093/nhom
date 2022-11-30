@@ -23,7 +23,7 @@
 						</ul>
 					</li>
 					<li><a href="#thanh">Thành</a></li>
-					<li><a href="https://b1401093.github.io/nhom/">Github</a></li>
+					<li><a href="https://github.com/b1401093/nhom.git">Github</a></li>
 					<li><a href="#ht">Liên hệ</a></li>
 					
 				</ul>
